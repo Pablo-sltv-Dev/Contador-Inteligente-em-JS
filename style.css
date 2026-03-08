@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1B1A35;
+}
+body>header{
+    /* border: 1px solid red; */
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    color: #A9B9E1;
+}
+
+body>main{
+    /* border: 1px solid black; */
+    width: 100vw;
+    height: 70vh;
+
+}
+body>footer{
+    /* border: 1px solid red; */
+    width: 100vw;
+    height: 10vh;
+
+}
+
+@media(max-width:500px){
+    header{
+        justify-content: center;
+        align-items: center;
+    }
+    main>#mstr{
+        width: 100%;
+        height: 25%;
+        /* border: 1px solid aqua; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+    }
+    #mstr>#contador{
+        /* background-color: #B4B79D; */
+        /* border-radius: 30%; */
+        border-bottom: 1px solid #7C6468 ;
+        width: 30%;
+        height: 50%;
+        text-align: center;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+        color: #A9B9E1;
+    }
+    main>#zn_nmr{
+        /* border: 1px solid white; */
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    #zn_nmr>.container{
+        /* border: 1px solid fuchsia; */
+        width: 30%;
+        height: 100%;
+    }
+    .container>ul{
+        /* border: 1px solid blue; */
+        width: 100%;
+        height: 100%;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+    }
+    .container>ul>li{
+        /* border: 1px solid #6378AA; */
+
+        width: 100%;
+        height: 35%;
+    }
+    
+    .container>ul>li>button{
+        border: 1px solid #6378AA;
+        background-color: transparent;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        font-size: 50px;
+        color: #A9B9E1;
+    }
+    .container>ul>li>button#rstr{
+        font-size: 20px;
+    }
+
+
+
+}
+
